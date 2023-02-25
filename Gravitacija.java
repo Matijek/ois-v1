@@ -9,5 +9,5 @@ public class Gravitacija {
         double r = 6.371 * Math.pow(10, 6);
         double v = sc.nextDouble();
         double a = c * m / ((r + v) * (r + v));
-}
-}
+
+		System.out.print(a);
