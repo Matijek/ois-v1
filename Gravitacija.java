@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Gravitacija {
 	public static void main(String[] args) {
 	
@@ -10,4 +11,6 @@ public class Gravitacija {
         double v = sc.nextDouble();
         double a = c * m / ((r + v) * (r + v));
 
-		System.out.print(a);
+	    System.out.print(a);
+    }
+}
